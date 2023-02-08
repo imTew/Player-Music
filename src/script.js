@@ -58,7 +58,6 @@ n = playlist.length;
 let player = document.getElementById( 'player' );
 let dur = document.getElementById( 'dur' );
 playlist.forEach( function( i ) {
-  console.log( i.audio )
   player.src = i.audio;
   $( '.title' ).html( i.title );
 }, );
